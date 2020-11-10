@@ -3,23 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.ufes.operacao.main;
+package br.ufes.avlimites.main;
 
-import br.ufes.operacao.models.Operacao;
+
+import br.ufes.avlimites.models.Cliente;
+import javax.swing.JOptionPane;
 
 /**
  *
  * @author 55289
  */
-public class Principal {
+public class main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Operacao operacao = new Operacao("Soma", "SM");
-        System.out.printf("Nome da operação: " + operacao.getNome()
-                + "\nCódigo: " + operacao.getCodigo());
+        String msg = JOptionPane.showInputDialog("Qual a data de nascimento do cliente? Use entrada do tipo: '2018-12-09'");
+        Cliente c1 = new Cliente(msg);
+        c1.sorteioAniversario();
+        
     }
 
 }
