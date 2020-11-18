@@ -24,11 +24,10 @@ public class Cliente {
 
     public void sorteioAniversario() {
         bonus = new BonusAniversario();
-        if(bonus.verificaBonus(dataAniversario)){
+        if (bonus.verificaBonus(dataAniversario)) {
             JOptionPane.showMessageDialog(null, "Está participando do sorteio!");
-            
-        }
-        else{
+
+        } else {
             JOptionPane.showMessageDialog(null, "Não está participando do sorteio!");
         }
     }

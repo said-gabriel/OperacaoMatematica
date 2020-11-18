@@ -1,2 +1,4 @@
-br\ufes\operacao\main\Principal.class
-br\ufes\operacao\models\Operacao.class
+br\ufes\avlimites\models\BonusAniversario.class
+br\ufes\avlimites\interfaces\Bonus.class
+br\ufes\avlimites\main\main.class
+br\ufes\avlimites\models\Cliente.class
