@@ -22,6 +22,8 @@ public class Cliente {
         this.dataAniversario = LocalDate.parse(data);
     }
 
+    
+
     public void sorteioAniversario() {
         bonus = new BonusAniversario();
         if (bonus.verificaBonus(dataAniversario)) {

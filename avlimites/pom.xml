@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>br.ufes</groupId>
     <artifactId>avlimites</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.1.8</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -74,5 +74,6 @@
             </plugin> 
         </plugins>
     </build>
+    
     <name>avlimites</name>
 </project>
