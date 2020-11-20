@@ -24,7 +24,7 @@ public class Cliente {
         this.bonus = new BonusAniversario();
         this.nome = nome;
         if (cpf.length() != 11) {
-           throw new IllegalArgumentException();
+            throw new IllegalArgumentException();
         }
         this.cpf = cpf;
 
@@ -71,6 +71,12 @@ public class Cliente {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Nome: " + getNome()
+                + "\n CPF: " + getCpf()
+                + "\n Data Aniversário: " + getDataAniversario().toString();
+    }
 
 }

@@ -1,4 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-avlimites,br.ufes.avlimites.models,Cliente,43,28,2,2,16,9,9,3,8,2
+avlimites,br.ufes.avlimites.models,Cliente,19,48,0,4,9,15,5,7,5,5
 avlimites,br.ufes.avlimites.models,BonusAniversario,0,19,0,4,0,2,0,4,0,2
-avlimites,br.ufes.avlimites.main,Principal,14,0,0,0,4,0,2,0,2,0
+avlimites,br.ufes.avlimites.main,Principal,19,0,0,0,4,0,2,0,2,0

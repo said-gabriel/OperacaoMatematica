@@ -6,7 +6,6 @@
 package br.ufes.avlimites.models;
 
 import java.time.LocalDate;
-import javax.swing.JOptionPane;
 import br.ufes.avlimites.interfaces.IBonus;
 
 /**
@@ -20,58 +19,58 @@ public class Cliente {
     private String nome;
     private String cpf;
 
-<span class="fc" id="L23">    public Cliente(LocalDate dataAniversario, String nome, String cpf) {</span>
-<span class="fc" id="L24">        this.dataAniversario = dataAniversario;</span>
-<span class="fc" id="L25">        this.bonus = new BonusAniversario();</span>
-<span class="fc" id="L26">        this.nome = nome;</span>
-<span class="fc bfc" id="L27" title="All 2 branches covered.">        if (cpf.length() != 11) {</span>
-<span class="fc" id="L28">           throw new IllegalArgumentException();</span>
+<span class="fc" id="L22">    public Cliente(LocalDate dataAniversario, String nome, String cpf) {</span>
+<span class="fc" id="L23">        this.dataAniversario = dataAniversario;</span>
+<span class="fc" id="L24">        this.bonus = new BonusAniversario();</span>
+<span class="fc" id="L25">        this.nome = nome;</span>
+<span class="fc bfc" id="L26" title="All 2 branches covered.">        if (cpf.length() != 11) {</span>
+<span class="fc" id="L27">           throw new IllegalArgumentException();</span>
         }
-<span class="fc" id="L30">        this.cpf = cpf;</span>
+<span class="fc" id="L29">        this.cpf = cpf;</span>
 
-<span class="fc" id="L32">    }</span>
+<span class="fc" id="L31">    }</span>
 
-    public void sorteioAniversario() {
-<span class="nc" id="L35">        bonus = new BonusAniversario();</span>
-<span class="nc bnc" id="L36" title="All 2 branches missed.">        if (bonus.verificaBonus(this)) {</span>
-<span class="nc" id="L37">            JOptionPane.showMessageDialog(null, &quot;Está participando do sorteio!&quot;);</span>
+    public String sorteioAniversario() {
+<span class="fc" id="L34">        bonus = new BonusAniversario();</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">        if (bonus.verificaBonus(this)) {</span>
+<span class="fc" id="L36">            return &quot;Está participando do sorteio!&quot;;</span>
 
         } else {
-<span class="nc" id="L40">            JOptionPane.showMessageDialog(null, &quot;Não está participando do sorteio!&quot;);</span>
+<span class="fc" id="L39">            return &quot;Não está participando do sorteio!&quot;;</span>
         }
-<span class="nc" id="L42">    }</span>
+    }
 
     public LocalDate getDataAniversario() {
-<span class="fc" id="L45">        return dataAniversario;</span>
+<span class="fc" id="L44">        return dataAniversario;</span>
     }
 
     public void setDataAniversario(LocalDate dataAniversario) {
-<span class="nc" id="L49">        this.dataAniversario = dataAniversario;</span>
-<span class="nc" id="L50">    }</span>
+<span class="nc" id="L48">        this.dataAniversario = dataAniversario;</span>
+<span class="nc" id="L49">    }</span>
 
     public IBonus getBonus() {
-<span class="nc" id="L53">        return bonus;</span>
+<span class="nc" id="L52">        return bonus;</span>
     }
 
     public void setBonus(IBonus bonus) {
-<span class="nc" id="L57">        this.bonus = bonus;</span>
-<span class="nc" id="L58">    }</span>
+<span class="nc" id="L56">        this.bonus = bonus;</span>
+<span class="nc" id="L57">    }</span>
 
     public String getNome() {
-<span class="nc" id="L61">        return nome;</span>
+<span class="fc" id="L60">        return nome;</span>
     }
 
     public void setNome(String nome) {
-<span class="nc" id="L65">        this.nome = nome;</span>
-<span class="nc" id="L66">    }</span>
+<span class="nc" id="L64">        this.nome = nome;</span>
+<span class="nc" id="L65">    }</span>
 
     public String getCpf() {
-<span class="nc" id="L69">        return cpf;</span>
+<span class="fc" id="L68">        return cpf;</span>
     }
 
     public void setCpf(String cpf) {
-<span class="nc" id="L73">        this.cpf = cpf;</span>
-<span class="nc" id="L74">    }</span>
+<span class="nc" id="L72">        this.cpf = cpf;</span>
+<span class="nc" id="L73">    }</span>
     
 
 }
