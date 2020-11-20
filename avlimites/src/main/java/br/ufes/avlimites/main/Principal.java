@@ -7,7 +7,6 @@ package br.ufes.avlimites.main;
 
 import br.ufes.avlimites.models.Cliente;
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 /**
  *
@@ -22,5 +21,5 @@ public class Principal {
         Cliente c1 = new Cliente(LocalDate.parse("1972-05-09"), "Kevin Durant", "25748657789");
         c1.sorteioAniversario();
     }
-    
+
 }

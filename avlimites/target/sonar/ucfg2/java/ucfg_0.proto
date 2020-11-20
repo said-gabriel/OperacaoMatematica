@@ -1,26 +1,26 @@
 
 \br.ufes.avlimites.models.BonusAniversario#verificaBonus(Lbr/ufes/avlimites/models/Cliente;)ZÅ
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ( "startingBlock*ñ
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ( "startingBlock*ñ
 2Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ("å
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ("å
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
 ""*ó
 3Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (M≥∞
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (M≥∞
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (b
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (b
 %3java.time.LocalDate"Jbr.ufes.avlimites.models.Cliente#getDataAniversario()Ljava/time/LocalDate;*-
 +
 cliente br.ufes.avlimites.models.Cliente2getDataAniversario()¯ı
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (m
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (m
 %4java.time.Month"/java.time.LocalDate#getMonth()Ljava/time/Month;*
 
 %3java.time.LocalDate2
 getMonth()‘—
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (x	
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.javaF (x	
 %5int"java.time.Month#getValue()I*
 
 %4java.time.Month2
@@ -28,10 +28,10 @@ getValue()*
 2
 1*»
 startingBlockÅ
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java  (1‡
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java  (1‡
 ›
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
 %6"
 __annotate*
 java.lang.Override*-
@@ -39,26 +39,26 @@ __annotate*
 cliente br.ufes.avlimites.models.Cliente 
 «
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java) (0+
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java) (0+
 cliente br.ufes.avlimites.models.Cliente"__annotation*
 
 %6*
 4*ó
 4Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (≥∞
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (≥∞
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ((
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ((
 %0java.time.LocalDate"Jbr.ufes.avlimites.models.Cliente#getDataAniversario()Ljava/time/LocalDate;*-
 +
 cliente br.ufes.avlimites.models.Cliente2getDataAniversario()¯ı
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (3
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (3
 %1java.time.Month"/java.time.LocalDate#getMonth()Ljava/time/Month;*
 
 %0java.time.LocalDate2
 getMonth()‘—
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (>	
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (>	
 %2int"java.time.Month#getValue()I*
 
 %1java.time.Month2
@@ -66,9 +66,9 @@ getValue()*
 3
 1*ñ
 1Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ("å
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java ("å
 Å
-wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
+wC:/Users/biel-/OneDrive/Documentos/GIT/avlimites/avlimites/src/main/java/br/ufes/avlimites/models/BonusAniversario.java (
 "":+
 cliente br.ufes.avlimites.models.ClienteB-+
 )br.ufes.avlimites.models.BonusAniversario

@@ -15,11 +15,7 @@ public class BonusAniversario implements IBonus {
 
     @Override
     public boolean verificaBonus(Cliente cliente) {
-        if (cliente.getDataAniversario().getMonth().getValue() > 4 && cliente.getDataAniversario().getMonth().getValue() < 11) {
-            return true;
-        } else {
-            return false;
-        }
+        return cliente.getDataAniversario().getMonth().getValue() > 4 && cliente.getDataAniversario().getMonth().getValue() < 11;
     }
 
 }

@@ -20,16 +20,16 @@ public class Cliente {
     private String nome;
     private String cpf;
 
-<span class="nc" id="L23">    public Cliente(LocalDate dataAniversario, String nome, String cpf) {</span>
-<span class="nc" id="L24">        this.dataAniversario = dataAniversario;</span>
-<span class="nc" id="L25">        this.bonus = new BonusAniversario();</span>
-<span class="nc" id="L26">        this.nome = nome;</span>
-<span class="nc bnc" id="L27" title="All 2 branches missed.">        if (cpf.length() != 11) {</span>
-<span class="nc" id="L28">           throw new IllegalArgumentException();</span>
+<span class="fc" id="L23">    public Cliente(LocalDate dataAniversario, String nome, String cpf) {</span>
+<span class="fc" id="L24">        this.dataAniversario = dataAniversario;</span>
+<span class="fc" id="L25">        this.bonus = new BonusAniversario();</span>
+<span class="fc" id="L26">        this.nome = nome;</span>
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        if (cpf.length() != 11) {</span>
+<span class="fc" id="L28">           throw new IllegalArgumentException();</span>
         }
-<span class="nc" id="L30">        this.cpf = cpf;</span>
+<span class="fc" id="L30">        this.cpf = cpf;</span>
 
-<span class="nc" id="L32">    }</span>
+<span class="fc" id="L32">    }</span>
 
     public void sorteioAniversario() {
 <span class="nc" id="L35">        bonus = new BonusAniversario();</span>
@@ -42,7 +42,7 @@ public class Cliente {
 <span class="nc" id="L42">    }</span>
 
     public LocalDate getDataAniversario() {
-<span class="nc" id="L45">        return dataAniversario;</span>
+<span class="fc" id="L45">        return dataAniversario;</span>
     }
 
     public void setDataAniversario(LocalDate dataAniversario) {
@@ -72,6 +72,7 @@ public class Cliente {
     public void setCpf(String cpf) {
 <span class="nc" id="L73">        this.cpf = cpf;</span>
 <span class="nc" id="L74">    }</span>
+    
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.3.201901230119</span></div></body></html>

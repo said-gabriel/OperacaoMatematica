@@ -3,5 +3,5 @@ projectKey=said-gabriel_OperacaoMatematica
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.14706
 dashboardUrl=https://sonarcloud.io/dashboard?id=said-gabriel_OperacaoMatematica
-ceTaskId=AXXlhmPX9kNevqJN6WOT
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXXlhmPX9kNevqJN6WOT
+ceTaskId=AXXln9bFOjXCc64jiOCR
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXXln9bFOjXCc64jiOCR

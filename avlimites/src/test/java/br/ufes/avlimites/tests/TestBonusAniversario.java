@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
  *
  * @author 55289
  */
-public class TestBonusAniversario {
+class TestBonusAniversario {
 
     public TestBonusAniversario() {
     }
@@ -51,7 +51,7 @@ public class TestBonusAniversario {
     @MethodSource("clienteProviderFalse")
     void CT01(Cliente cliente) {
         IBonus exemplo = new BonusAniversario();
-        assertEquals(false,exemplo.verificaBonus(cliente));
+        assertEquals(false, exemplo.verificaBonus(cliente));
     }
 
     //gera os valores para o teste, cujos valores são os limites superiores e inferiores
@@ -78,7 +78,7 @@ public class TestBonusAniversario {
     @MethodSource("clienteProviderTrue")
     void CT02(Cliente cliente) {
         IBonus exemplo = new BonusAniversario();
-        assertEquals(true,exemplo.verificaBonus(cliente));
+        assertEquals(true, exemplo.verificaBonus(cliente));
     }
 
     //gera os valores para o teste verdadeiro
