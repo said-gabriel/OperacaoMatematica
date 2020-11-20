@@ -5,21 +5,21 @@
  */
 package br.ufes.avlimites.models;
 
-import br.ufes.avlimites.interfaces.Bonus;
-import java.time.LocalDate;
+import br.ufes.avlimites.interfaces.IBonus;
 
 /**
  *
  * @author 55289
  */
-public class BonusAniversario implements Bonus{
+public class BonusAniversario implements IBonus {
 
     @Override
-    public boolean verificaBonus(LocalDate data) {
-        if (data.getMonth().getValue() > 4 && data.getMonth().getValue() < 11) {
+    public boolean verificaBonus(Cliente cliente) {
+        if (cliente.getDataAniversario().getMonth().getValue() > 4 && cliente.getDataAniversario().getMonth().getValue() < 11) {
             return true;
+        } else {
+            return false;
         }
-        return false;
     }
-    
+
 }

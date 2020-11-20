@@ -5,24 +5,22 @@
  */
 package br.ufes.avlimites.main;
 
-
 import br.ufes.avlimites.models.Cliente;
-import javax.swing.JOptionPane;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 /**
  *
  * @author 55289
  */
-public class main {
+public class Principal {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String msg = JOptionPane.showInputDialog("Qual a data de nascimento do cliente? Use entrada do tipo: '2018-12-09'");
-        Cliente c1 = new Cliente(msg);
+        Cliente c1 = new Cliente(LocalDate.parse("1972-05-09"), "Kevin Durant", "25748657789");
         c1.sorteioAniversario();
-        
     }
-
+    
 }

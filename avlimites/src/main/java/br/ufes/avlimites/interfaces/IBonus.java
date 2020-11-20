@@ -5,12 +5,13 @@
  */
 package br.ufes.avlimites.interfaces;
 
-import java.time.LocalDate;
+import br.ufes.avlimites.models.Cliente;
+
 
 /**
  *
  * @author 55289
  */
-public interface Bonus {
-    public boolean verificaBonus(LocalDate data);
+public interface IBonus {
+    public boolean verificaBonus(Cliente cliente);
 }
