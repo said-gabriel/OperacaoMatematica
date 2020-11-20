@@ -6,7 +6,6 @@
 package br.ufes.avlimites.models;
 
 import java.time.LocalDate;
-import javax.swing.JOptionPane;
 import br.ufes.avlimites.interfaces.IBonus;
 
 /**
@@ -31,13 +30,13 @@ public class Cliente {
 
     }
 
-    public void sorteioAniversario() {
+    public String sorteioAniversario() {
         bonus = new BonusAniversario();
         if (bonus.verificaBonus(this)) {
-            JOptionPane.showMessageDialog(null, "Está participando do sorteio!");
+            return "Está participando do sorteio!";
 
         } else {
-            JOptionPane.showMessageDialog(null, "Não está participando do sorteio!");
+            return "Não está participando do sorteio!";
         }
     }
 

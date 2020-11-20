@@ -15,11 +15,7 @@ import br.ufes.avlimites.interfaces.IBonus;
 
     @Override
     public boolean verificaBonus(Cliente cliente) {
-<span class="fc bfc" id="L18" title="All 4 branches covered.">        if (cliente.getDataAniversario().getMonth().getValue() &gt; 4 &amp;&amp; cliente.getDataAniversario().getMonth().getValue() &lt; 11) {</span>
-<span class="fc" id="L19">            return true;</span>
-        } else {
-<span class="fc" id="L21">            return false;</span>
-        }
+<span class="fc bfc" id="L18" title="All 4 branches covered.">        return cliente.getDataAniversario().getMonth().getValue() &gt; 4 &amp;&amp; cliente.getDataAniversario().getMonth().getValue() &lt; 11;</span>
     }
 
 }

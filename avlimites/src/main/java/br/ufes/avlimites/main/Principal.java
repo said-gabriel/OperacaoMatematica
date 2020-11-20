@@ -19,7 +19,7 @@ public class Principal {
      */
     public static void main(String[] args) {
         Cliente c1 = new Cliente(LocalDate.parse("1972-05-09"), "Kevin Durant", "25748657789");
-        c1.sorteioAniversario();
+        System.out.printf(c1.sorteioAniversario());
     }
 
 }
